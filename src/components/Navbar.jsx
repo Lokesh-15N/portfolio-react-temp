@@ -23,10 +23,17 @@ const Navbar = () => {
   }, []);
 
   const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setMobileMenuOpen(false);
+    setMobileMenuOpen(false);
+    
+    if (id === 'home' || id === 'hero') {
+      // Force scroll to top for home/hero
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      const element = document.getElementById(id);
+      if (element) {
+        const offsetTop = element.offsetTop;
+        window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+      }
     }
   };
 
@@ -49,7 +56,7 @@ const Navbar = () => {
 
         <ul className={`navbar-menu ${mobileMenuOpen ? 'open' : ''}`}>
           <li>
-            <a onClick={() => scrollToSection('home')} className="navbar-link">
+            <a onClick={() => scrollToSection('hero')} className="navbar-link">
               Home
             </a>
           </li>

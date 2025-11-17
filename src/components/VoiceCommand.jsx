@@ -97,6 +97,7 @@ const VoiceCommand = () => {
         className={`voice-button ${isListening ? 'listening' : ''}`}
         onClick={toggleListening}
         title="Voice Commands: home, about, projects, skills, contact"
+        
       >
         <i className={`fas fa-microphone${isListening ? '' : '-slash'}`}></i>
       </button>
