@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import VoiceCommand from './components/VoiceCommand';
 import useLenisScroll from './hooks/useLenisScroll';
 import './App.css';
 
@@ -15,8 +16,9 @@ function App() {
     <>
       <Navbar />
       <ThreeDBackground />
+      <VoiceCommand />
       <div className="scroll-container">
-        <section id="home">
+        <section id="hero">
           <Hero />
         </section>
         <section id="projects">
