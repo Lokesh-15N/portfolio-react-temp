@@ -119,30 +119,4 @@ export const getTopSkills = (limit = 6) => {
     .slice(0, limit);
 };
 
-// Expertise timeline
-export const experienceTimeline = [
-  {
-    year: '2020',
-    title: 'Full Stack Developer',
-    company: 'Tech Startup',
-    description: 'Developed multiple web applications using React, Node.js, and MongoDB'
-  },
-  {
-    year: '2021',
-    title: 'Senior Frontend Developer',
-    company: 'Digital Agency',
-    description: 'Led frontend team, implemented design systems, and mentored junior developers'
-  },
-  {
-    year: '2022',
-    title: 'Tech Lead',
-    company: 'SaaS Company',
-    description: 'Architected scalable solutions, improved performance by 40%, and led 3D visualization projects'
-  },
-  {
-    year: '2024',
-    title: 'Creative Developer',
-    company: 'Freelance',
-    description: 'Building innovative web experiences with Three.js, GSAP, and modern web technologies'
-  }
-];
+
