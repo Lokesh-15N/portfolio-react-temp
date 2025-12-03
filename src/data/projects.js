@@ -2,19 +2,19 @@
 export const projectsData = [
   {
     id: 1,
-    title: 'AI Content Generator Platform',
-    description: 'Full-stack platform for AI-powered content creation with natural language processing, template system, and real-time collaboration features.',
-    longDescription: 'A full-stack e-commerce solution with payment integration, inventory management, and user authentication. Supports multiple payment gateways and real-time inventory tracking.',
-    image: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    tags: ['React', 'Node.js', 'OpenAI', 'MongoDB', 'Redis'],
+    title: 'PixelSwap - AI Background Remover & Scene Generator',
+    description: 'Modern web app for removing backgrounds and swapping them with AI-generated scenes. Features a green theme, 3D effects, and privacy-first API handling.',
+    longDescription: 'PixelSwap is a full-stack image editing platform that lets users remove backgrounds and place subjects into AI-generated scenes. Includes secure API integration, responsive design, and instant downloads.',
+    image: 'linear-gradient(135deg, #A3C9A8 0%, #C7E8C5 100%)',
+    tags: ['Next.js', 'React', 'Three.js', 'Remove.bg', 'Pollinations.ai'],
     featured: true,
     link: '#',
-    github: 'https://github.com',
-    liveLink: 'https://demo.com',
+    github: 'https://github.com/Lokesh-15N/background-removal-app.git',
+    liveLink: 'https://background-removal-app-sable-sigma.vercel.app/',
     technologies: {
-      frontend: ['React', 'Next.js', 'TailwindCSS'],
-      backend: ['Node.js', 'Express', 'MongoDB'],
-      tools: ['OpenAI API', 'Redis', 'AWS']
+      frontend: ['React', 'Next.js', 'TailwindCSS', 'Three.js'],
+      backend: ['Node.js', 'Next.js API routes'],
+      tools: ['Remove.bg API', 'Pollinations.ai', 'Vercel']
     },
     stats: {
       performance: '98%',
