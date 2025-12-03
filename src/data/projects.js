@@ -24,19 +24,19 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: 'SaaS Project Management Tool',
-    description: 'Modern project management platform with kanban boards, time tracking, team collaboration, and automated reporting features.',
-    longDescription: 'A collaborative task management tool with real-time updates, team collaboration features, and progress tracking.',
-    image: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-    tags: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Socket.IO'],
+    title: 'Financika - Personal Finance Tracker',
+    description: 'Modern web app for tracking income, expenses, budgets, and receipts. Features analytics, mobile-first design, and secure API integration.',
+    longDescription: 'Financika is a full-stack finance management platform that helps users track transactions, scan receipts with AI, and visualize spending. Includes JWT authentication, responsive UI, and cloud deployment.',
+    image: 'linear-gradient(135deg, #4F8A8B 0%, #CDE7B0 100%)',
+    tags: ['React', 'Express', 'MongoDB', 'Google Gemini AI', 'Render'],
     featured: true,
     link: '#',
-    github: 'https://github.com',
-    liveLink: 'https://demo.com',
+    github: 'https://github.com/Lokesh-15N/paisable-master.git',
+    liveLink: 'https://financika.onrender.com',
     technologies: {
-      frontend: ['React', 'TypeScript', 'Redux'],
-      styling: ['Material-UI', 'SCSS', 'Framer Motion'],
-      tools: ['Jest', 'Cypress', 'GitHub Actions']
+      frontend: ['React', 'Vite', 'TailwindCSS', 'Chart.js'],
+      backend: ['Node.js', 'Express', 'MongoDB'],
+      tools: ['Google Gemini AI', 'Render', 'MongoDB Atlas']
     },
     stats: {
       components: '40+',
