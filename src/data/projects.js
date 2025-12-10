@@ -1,29 +1,8 @@
 // Projects Data - All project information in one place
 export const projectsData = [
+
   {
     id: 1,
-    title: 'PixelSwap - AI Background Remover & Scene Generator',
-    description: 'Modern web app for removing backgrounds and swapping them with AI-generated scenes. Features a green theme, 3D effects, and privacy-first API handling.',
-    longDescription: 'PixelSwap is a full-stack image editing platform that lets users remove backgrounds and place subjects into AI-generated scenes. Includes secure API integration, responsive design, and instant downloads.',
-    image: 'linear-gradient(135deg, #A3C9A8 0%, #C7E8C5 100%)',
-    tags: ['Next.js', 'React', 'Three.js', 'Remove.bg', 'Pollinations.ai'],
-    featured: true,
-    link: '#',
-    github: 'https://github.com/Lokesh-15N/background-removal-app.git',
-    liveLink: 'https://background-removal-app-sable-sigma.vercel.app/',
-    technologies: {
-      frontend: ['React', 'Next.js', 'TailwindCSS', 'Three.js'],
-      backend: ['Node.js', 'Next.js API routes'],
-      tools: ['Remove.bg API', 'Pollinations.ai', 'Vercel']
-    },
-    stats: {
-      performance: '98%',
-      users: '10K+',
-      uptime: '99.9%'
-    }
-  },
-  {
-    id: 2,
     title: 'Financika - Personal Finance Tracker',
     description: 'Modern web app for tracking income, expenses, budgets, and receipts. Features analytics, mobile-first design, and secure API integration.',
     longDescription: 'Financika is a full-stack finance management platform that helps users track transactions, scan receipts with AI, and visualize spending. Includes JWT authentication, responsive UI, and cloud deployment.',
@@ -45,27 +24,51 @@ export const projectsData = [
     }
   },
   {
+  id: 2,
+  title: 'NOTEGENI - AI Study Notes Generator',
+  description: 'Full-featured AI platform that transforms YouTube videos into comprehensive study materials with AI-powered content generation, user authentication, and PDF export capabilities.',
+  longDescription: 'An intelligent study companion that analyzes YouTube video transcripts and generates structured study materials including notes, flashcards, keywords in multiple languages, practice questions, and key summaries powered by Google Gemini AI.',
+  image: 'linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)',
+  tags: ['React', 'Node.js', 'MongoDB', 'Google Gemini AI', 'YouTube API', 'Vite', 'Tailwind'],
+  featured: true,
+  link: 'https://notegeni.onrender.com',
+  github: 'https://github.com/Lokesh-15N/notegeni',
+  liveLink: 'https://notegeni.onrender.com',
+  technologies: {
+    frontend: ['React 18', 'Vite', 'React Router', 'Axios', 'Three.js'],
+    backend: ['Node.js', 'Express.js', 'MongoDB', 'JWT Authentication', 'bcryptjs'],
+    tools: ['Google Gemini AI', 'YouTube Data API v3', 'PDFKit', 'Render Deployment']
+  },
+  stats: {
+    features: '6+ Study Materials',
+    users: 'Unlimited',
+    notes: 'Unlimited Save',
+    audited: true
+  }
+  },
+    {
     id: 3,
-    title: 'E-Commerce Marketplace',
-    description: 'Full-featured online marketplace with vendor management, payment processing, inventory tracking, and customer review system.',
-    longDescription: 'A real-time weather application with location-based forecasts, weather alerts, and beautiful visualizations.',
-    image: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-    tags: ['Next.js', 'Stripe', 'MongoDB', 'Node.js', 'Tailwind'],
-    featured: false,
+    title: 'PixelSwap - AI Background Remover & Scene Generator',
+    description: 'Modern web app for removing backgrounds and swapping them with AI-generated scenes. Features a green theme, 3D effects, and privacy-first API handling.',
+    longDescription: 'PixelSwap is a full-stack image editing platform that lets users remove backgrounds and place subjects into AI-generated scenes. Includes secure API integration, responsive design, and instant downloads.',
+    image: 'linear-gradient(135deg, #A3C9A8 0%, #C7E8C5 100%)',
+    tags: ['Next.js', 'React', 'Three.js', 'Remove.bg', 'Pollinations.ai'],
+    featured: true,
     link: '#',
-    github: 'https://github.com',
-    liveLink: 'https://demo.com',
+    github: 'https://github.com/Lokesh-15N/background-removal-app.git',
+    liveLink: 'https://background-removal-app-sable-sigma.vercel.app/',
     technologies: {
-      frontend: ['Next.js', 'React', 'Tailwind CSS'],
-      blockchain: ['Stripe API', 'PayPal SDK', 'MongoDB'],
-      tools: ['AWS S3', 'CloudFront', 'Docker']
+      frontend: ['React', 'Next.js', 'TailwindCSS', 'Three.js'],
+      backend: ['Node.js', 'Next.js API routes'],
+      tools: ['Remove.bg API', 'Pollinations.ai', 'Vercel']
     },
     stats: {
-      tvl: '$2M+',
-      contracts: '5',
-      audited: true
+      performance: '98%',
+      users: '10K+',
+      uptime: '99.9%'
     }
   },
+  
   {
     id: 4,
     title: 'Social Media Dashboard',
